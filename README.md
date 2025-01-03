@@ -4,6 +4,26 @@
 
 
 
+## Prerequisites for DNS Server Setup (CentOS 9)
+
+1. Linux Server VM:
+      - OS: CentOS 9 with static IP configured.
+      - Role: DNS server running BIND.
+
+2. Linux Client VM:
+
+      - OS: CentOS 9.
+      - Role: DNS client for testing resolution.
+      - Network Configuration: Configure the client to use the server VM's IP as its DNS resolver.
+
+
+
+
+<br>
+
+
+
+
 
 
 
@@ -26,6 +46,11 @@
 
 <br>
 
+
+# *******************  Implementation Steps  **********************
+
+
+<br>
 
 ---
 
