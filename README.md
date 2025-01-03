@@ -229,10 +229,11 @@ cd /var/named
 <br>
 <br>
 
-# ******************** Implementation Screenshots *************************
+# ******************* Screenshots Implementation **********************
 
 
 
+## 1.
 <br>
 <br>
 
@@ -247,7 +248,8 @@ cd /var/named
 
 <br>
 <br>
-  
+
+ ## 2. 
 
 
 ![2 2 resolv conf ](https://github.com/user-attachments/assets/edec5f83-9291-427d-ba3d-c3ef18057cdd)
@@ -258,6 +260,7 @@ cd /var/named
 <br>
 <br>
 
+## 3.
 
 
 
@@ -273,6 +276,8 @@ cd /var/named
 
 <br>
 <br>
+
+## 4.
   
 
 ![3 1  forward file ](https://github.com/user-attachments/assets/d1b7219e-aea9-4c44-826a-aacfb3ef5e07)
@@ -284,6 +289,7 @@ cd /var/named
 <br>
 <br>
 
+## 5.
 
 
 
@@ -299,7 +305,9 @@ cd /var/named
 
 <br>
 <br>
-  
+
+
+  ## 6.
 
 
 ![ip and resolve host](https://github.com/user-attachments/assets/0f9dd2b4-332e-4e86-8ba4-b9cb6edeffe1)
@@ -309,7 +317,7 @@ cd /var/named
 
 <br>
 <br>
-
+## 7.
 
 
 
@@ -339,7 +347,6 @@ cd /var/named
 
 
 
-```
 
 ## Step 1: Network Configuration
 
@@ -353,7 +360,7 @@ cd /var/named
 
 2. Set the following details:
 
-   - **IP Address:** Assign a static IP to the server.      # In my case  192.168.82.145
+   - **IP Address:** Assign a static IP to the server.                                 ```yml  # In my case  192.168.82.145  ```
    - **Gateway:** Use `route -n` to determine the gateway.
    - **Primary DNS:** Server’s DNS IP     # In my case  192.168.82.212
    - **Secondary DNS:** `8.8.8.8` (Google's public DNS).
@@ -381,18 +388,53 @@ cd /var/named
 ---
 
 
+<br>
+<br>
+<br>
+<br>
+
+# ******************* Screenshots Implementation **********************
+
+<br>
 
 
-
-
-
+## 1. 
 
 <br>
 <br>
   
+![i   nmtui](https://github.com/user-attachments/assets/7c71e52e-fe86-4169-9d38-bdf895fca4b4)
 
 
 
+
+
+
+<br>
+<br>
+
+## 2.
+
+
+
+
+
+![2   ip and route](https://github.com/user-attachments/assets/922ebfe7-4157-4224-9b3c-2bd943ef0876)
+
+
+
+
+
+
+
+<br>
+<br>
+
+  ## 3. 
+
+
+
+![final verification](https://github.com/user-attachments/assets/be957055-dfc6-4977-ba60-52f4fda0e57c)
 
 
 
@@ -410,42 +452,6 @@ cd /var/named
 
 
 
-
-<br>
-<br>
-  
-
-
-
-
-
-
-<br>
-<br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<br>
-<br>
-  
-
-
-
-
-
-
-<br>
-<br>
 
 
 
