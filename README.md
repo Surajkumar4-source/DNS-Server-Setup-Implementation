@@ -3,7 +3,6 @@
 <br>
 
 
-
 ## Prerequisites for DNS Server Setup (CentOS 9)
 
 1. Linux Server VM:
